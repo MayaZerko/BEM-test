@@ -23,7 +23,7 @@
   margin: -1px;
 }
 
-.hidden-title {
+.title-hidden {
   display: none;
 }
 
@@ -68,8 +68,8 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.top-section {
-  padding-top: 94px;
+.section {
+  padding-bottom: 94px;
 }
 
 .container {
@@ -78,10 +78,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.section {
-  padding-bottom: 94px;
 }
 
 .button, .hero__button {
@@ -193,7 +189,7 @@ img {
   color: var(--white-color);
 }
 
-.section-title {
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -524,19 +520,23 @@ img {
 }
 
 .company-ideal {
+  padding-top: 94px;
+}
+
+.company-ideal__block {
   display: flex;
 }
 
-.company-ideal .company-item {
+.company-ideal__item {
   width: 270px;
   margin-right: 30px;
 }
 
-.company-ideal .company-item:last-child {
+.company-ideal__item:last-child {
   margin-right: 0;
 }
 
-.company-item .section-icon {
+.company-ideal__icon {
   display: block;
   background-color: #f5f4fa;
   text-align: center;
@@ -548,7 +548,7 @@ img {
   justify-content: center;
 }
 
-.company-ideal .title {
+.company-ideal__title {
   color: var(--title-text-color);
   margin-top: 0;
   margin-bottom: 10px;
@@ -558,7 +558,7 @@ img {
   text-transform: uppercase;
 }
 
-.company-ideal .text {
+.company-ideal__text {
   margin: 0;
   font-size: 14px;
   line-height: 1.71;
@@ -679,6 +679,10 @@ img {
 .clients-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio {
+  padding-top: 94px;
 }
 
 .portfolio-element {
