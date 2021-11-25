@@ -8,7 +8,8 @@
   line-height: 1.16;
 }
 
-.portfolio-title {
+.portfolio-card__title {
+  @extend .section__title;
   margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
